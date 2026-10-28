@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Smooth scroll saat link navbar (#about, #projects, dll) diklik */
+
+
+/* Base style & warna latar belakang */
+body {
+  background-color: #faf6f0;
+  color: #432818;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Scrollbar Tema Cokelat */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #faf6f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e7d8c9;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bb9457;
+}
